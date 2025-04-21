@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// 만만투어 테마 색상
+				manman: {
+					coral: '#FF7F50',
+					blue: '#87CEFA',
+					beige: '#F5F5DC',
+					charcoal: '#36454F',
+					offwhite: '#FAF9F6',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# 만만투어 - 여행사 웹사이트
 
-## Project info
+진심을 담아 설계한 당신만의 여행, 여행에 진심인 만만투어의 공식 웹사이트입니다.
+
+## 프로젝트 정보
 
 **URL**: https://lovable.dev/projects/e6dc1f81-3465-49dd-96f5-179f85bddf88
 
-## How can I edit this code?
+## 주요 특징
 
-There are several ways of editing your application.
+- **반응형 디자인**: PC, 태블릿, 모바일에 최적화된 사용자 경험
+- **여행 상품 소개**: 국내/해외 여행 상품을 카테고리별로 볼 수 있는 구성
+- **모던한 UI**: 직관적이고 사용하기 쉬운 인터페이스
+- **문의 시스템**: 고객이 쉽게 문의할 수 있는 폼 제공
 
-**Use Lovable**
+## 기술 스택
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e6dc1f81-3465-49dd-96f5-179f85bddf88) and start prompting.
+이 프로젝트는 다음 기술로 구축되었습니다:
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **UI 컴포넌트**: Shadcn UI
+- **빌드 도구**: Vite
+- **라우팅**: React Router
 
-**Use your preferred IDE**
+## 로컬 개발 환경 설정
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+로컬에서 개발하려면 다음 단계를 따르세요:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1. 저장소 복제
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. 프로젝트 디렉토리로 이동
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# 3. 필요한 의존성 설치
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. 개발 서버 시작
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 배포 및 도메인 연결
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 배포 방법
 
-**Use GitHub Codespaces**
+[Lovable](https://lovable.dev/projects/e6dc1f81-3465-49dd-96f5-179f85bddf88)에서 Share -> Publish를 클릭하여 쉽게 배포할 수 있습니다.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 사용자 정의 도메인 연결
 
-## What technologies are used for this project?
+도메인을 연결하려면 Project > Settings > Domains으로 이동하여 Connect Domain을 클릭하세요.
 
-This project is built with:
+자세한 정보는 [사용자 정의 도메인 설정하기](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)에서 확인할 수 있습니다.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 페이지 구성
 
-## How can I deploy this project?
+- **홈페이지**: 메인 배너, 인기 여행상품, 주요 특징 소개
+- **상품 안내**: 국내 및 해외 여행 상품 목록
+- **회사 소개**: 만만투어의 비전과 연락처 정보
+- **문의하기**: 고객 문의 접수 및 연락처 정보
 
-Simply open [Lovable](https://lovable.dev/projects/e6dc1f81-3465-49dd-96f5-179f85bddf88) and click on Share -> Publish.
+## 고객 지원
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+문의사항이 있으시면 다음 연락처로 문의해주세요:
+- 이메일: info@manmantour.com
+- 전화: 02-123-4567
