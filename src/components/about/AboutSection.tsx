@@ -55,9 +55,9 @@ const AboutSection = () => {
                   <h3 className="font-semibold text-lg text-manman-charcoal">
                     사업자 정보
                   </h3>
-                  <p className="text-gray-700 mt-1">사업자 등록번호: 123-45-67890</p>
-                  <p className="text-gray-700">대표자: 홍길동</p>
-                  <p className="text-gray-700">관광사업자 등록번호: 제2023-12호</p>
+                  <p className="text-gray-700 mt-1">상호명: (주) 만만투어</p>
+                  <p className="text-gray-700">대표자: 한상만</p>
+                  <p className="text-gray-700">사업자 등록번호: 274-81-00293</p>
                 </div>
               </div>
 
@@ -65,11 +65,10 @@ const AboutSection = () => {
                 <Phone className="w-6 h-6 text-manman-coral mr-3 mt-1" />
                 <div>
                   <h3 className="font-semibold text-lg text-manman-charcoal">
-                    연락처
+                    연락처 및 영업시간
                   </h3>
-                  <p className="text-gray-700 mt-1">전화: 02-123-4567</p>
-                  <p className="text-gray-700">팩스: 02-123-4568</p>
-                  <p className="text-gray-700">휴대폰: 010-1234-5678</p>
+                  <p className="text-gray-700 mt-1">전화: 02-725-2212</p>
+                  <p className="text-gray-700">영업시간: 평일 09:00 ~ 18:00</p>
                 </div>
               </div>
 
@@ -79,8 +78,7 @@ const AboutSection = () => {
                   <h3 className="font-semibold text-lg text-manman-charcoal">
                     이메일
                   </h3>
-                  <p className="text-gray-700 mt-1">info@manmantour.com</p>
-                  <p className="text-gray-700">support@manmantour.com</p>
+                  <p className="text-gray-700 mt-1">manmantour@naver.com</p>
                 </div>
               </div>
 
@@ -88,13 +86,16 @@ const AboutSection = () => {
                 <MapPin className="w-6 h-6 text-manman-coral mr-3 mt-1" />
                 <div>
                   <h3 className="font-semibold text-lg text-manman-charcoal">
-                    주소
+                    주소 및 오시는 길
                   </h3>
                   <p className="text-gray-700 mt-1">
-                    서울시 강남구 테헤란로 123, 만만투어 빌딩 8층
+                    서울특별시 중구 남대문로10길 28 우석빌딩 705호 (우편번호: 04533)
                   </p>
                   <p className="text-gray-700 mt-1">
-                    (우편번호: 06123)
+                    을지로입구역 3번 출구에서 우회전 100m (VIP동원참치 7층)
+                  </p>
+                  <p className="text-gray-700 mt-1">
+                    종각역 5번 출구에서 약 500m 거리
                   </p>
                 </div>
               </div>
