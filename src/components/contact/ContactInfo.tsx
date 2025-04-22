@@ -1,4 +1,3 @@
-
 import { Phone, Mail, MapPin } from "lucide-react";
 
 const ContactInfo = () => {
@@ -13,9 +12,9 @@ const ContactInfo = () => {
           <Phone className="h-6 w-6 text-manman-coral mr-3" />
           <div>
             <h3 className="font-semibold text-manman-charcoal">전화 문의</h3>
-            <p className="text-gray-700 mt-1">02-123-4567</p>
+            <p className="text-gray-700 mt-1">02-725-2212</p>
             <p className="text-gray-600 text-sm mt-1">
-              평일 09:00 - 18:00, 토요일 09:00 - 13:00 (일요일/공휴일 휴무)
+              평일 09:00 - 18:00 (토요일, 일요일 및 공휴일 휴무)
             </p>
           </div>
         </div>
@@ -24,7 +23,7 @@ const ContactInfo = () => {
           <Mail className="h-6 w-6 text-manman-coral mr-3" />
           <div>
             <h3 className="font-semibold text-manman-charcoal">이메일 문의</h3>
-            <p className="text-gray-700 mt-1">info@manmantour.com</p>
+            <p className="text-gray-700 mt-1">manmantour@naver.com</p>
             <p className="text-gray-600 text-sm mt-1">
               24시간 접수 가능, 영업일 기준 24시간 이내 답변
             </p>
@@ -36,10 +35,10 @@ const ContactInfo = () => {
           <div>
             <h3 className="font-semibold text-manman-charcoal">오시는 길</h3>
             <p className="text-gray-700 mt-1">
-              서울시 강남구 테헤란로 123, 만만투어 빌딩 8층
+              서울특별시 중구 남대문로10길 28 우석빌딩 705호
             </p>
             <p className="text-gray-600 text-sm mt-1">
-              지하철 2호선 강남역 3번 출구에서 도보 5분
+              을지로입구역 3번 출구에서 우회전 100m (VIP동원참치 7층)
             </p>
           </div>
         </div>
