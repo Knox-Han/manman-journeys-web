@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
 
@@ -11,8 +10,8 @@ const Footer = () => {
           <div className="md:col-span-1">
             <h2 className="text-2xl font-bold text-manman-coral mb-4">만만투어</h2>
             <p className="text-gray-300 mb-4">
-              진심을 담아 설계한 당신만의 여행,<br />
-              여행에 진심입니다.
+              여행은 쉽고, 만만해야 한다<br />
+              믿고 맡길 수 있는 여행 파트너
             </p>
           </div>
 
@@ -49,16 +48,16 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-2 mt-0.5 text-manman-coral" />
-                <span className="text-gray-300">02-123-4567</span>
+                <span className="text-gray-300">02-725-2212</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 mt-0.5 text-manman-coral" />
-                <span className="text-gray-300">info@manmantour.com</span>
+                <span className="text-gray-300">manmantour@naver.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-manman-coral" />
                 <span className="text-gray-300">
-                  서울시 강남구 테헤란로 123, 만만투어 빌딩
+                  서울특별시 중구 남대문로10길 28 우석빌딩 705호
                 </span>
               </li>
             </ul>
@@ -69,15 +68,14 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">영업시간</h3>
             <ul className="text-gray-300 space-y-2">
               <li>평일: 09:00 - 18:00</li>
-              <li>토요일: 09:00 - 13:00</li>
-              <li>일요일 및 공휴일: 휴무</li>
+              <li>토요일, 일요일 및 공휴일: 휴무</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
           <p>© {new Date().getFullYear()} 만만투어. All rights reserved.</p>
-          <p className="mt-2">사업자 등록번호: 123-45-67890 | 대표: 홍길동</p>
+          <p className="mt-2">사업자 등록번호: 274-81-00293 | 대표: 한상만</p>
         </div>
       </div>
     </footer>
