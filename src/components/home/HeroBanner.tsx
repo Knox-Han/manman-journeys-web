@@ -12,13 +12,13 @@ const bannerData = [
   },
   {
     id: 2,
-    imageUrl: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
+    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
     title: "도시의 활기를 느껴보세요",
     description: "세계 각국의 문화를 체험하는 도시 여행",
   },
   {
     id: 3,
-    imageUrl: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+    imageUrl: "https://images.unsplash.com/photo-1517022812141-23620dba5c23",
     title: "해변에서의 휴식",
     description: "푸른 바다와 함께하는 완벽한 휴양",
   },

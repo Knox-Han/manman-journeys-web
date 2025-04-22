@@ -7,7 +7,7 @@ import ProductCard from "./ProductCard";
 const domesticProducts: TourCardProps[] = [
   {
     id: 1,
-    imageUrl: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
+    imageUrl: "https://images.unsplash.com/photo-1517022812141-23620dba5c23",
     title: "제주도 3박 4일 패키지",
     description: "아름다운 제주의 자연과 함께하는 힐링 여행",
     price: "₩399,000~",
@@ -23,7 +23,7 @@ const domesticProducts: TourCardProps[] = [
   },
   {
     id: 3,
-    imageUrl: "https://images.unsplash.com/photo-1426604966848-d7adac402bff",
+    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
     title: "부산 해운대 1박 2일",
     description: "해운대의 낭만과 맛있는 음식을 즐기는 부산 여행",
     price: "₩199,000~",
@@ -39,7 +39,7 @@ const domesticProducts: TourCardProps[] = [
   },
   {
     id: 5,
-    imageUrl: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+    imageUrl: "https://images.unsplash.com/photo-1517022812141-23620dba5c23",
     title: "여수 밤바다 2박 3일",
     description: "아름다운 여수 밤바다와 함께하는 로맨틱 여행",
     price: "₩250,000~",
@@ -47,7 +47,7 @@ const domesticProducts: TourCardProps[] = [
   },
   {
     id: 6,
-    imageUrl: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
+    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
     title: "서울 시티투어 당일코스",
     description: "서울의 명소를 한 번에 둘러보는 알찬 당일치기 코스",
     price: "₩79,000~",
@@ -59,7 +59,7 @@ const domesticProducts: TourCardProps[] = [
 const internationalProducts: TourCardProps[] = [
   {
     id: 7,
-    imageUrl: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+    imageUrl: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
     title: "괌 휴양 패키지 5박 6일",
     description: "에메랄드빛 바다와 함께하는 환상적인 휴양!",
     price: "₩1,290,000~",
@@ -67,7 +67,7 @@ const internationalProducts: TourCardProps[] = [
   },
   {
     id: 8,
-    imageUrl: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+    imageUrl: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
     title: "스위스 일주 7박 8일",
     description: "알프스의 아름다움을 만끽하는 스위스 여행",
     price: "₩2,990,000~",
@@ -75,7 +75,7 @@ const internationalProducts: TourCardProps[] = [
   },
   {
     id: 9,
-    imageUrl: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
+    imageUrl: "https://images.unsplash.com/photo-1517022812141-23620dba5c23",
     title: "일본 교토/오사카 3박 4일",
     description: "고즈넉한 교토의 전통과 오사카의 활기",
     price: "₩690,000~",
@@ -83,7 +83,7 @@ const internationalProducts: TourCardProps[] = [
   },
   {
     id: 10,
-    imageUrl: "https://images.unsplash.com/photo-1426604966848-d7adac402bff",
+    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
     title: "베트남 다낭/호이안 4박 5일",
     description: "에메랄드빛 해변과 고풍스러운 호이안 골목길",
     price: "₩590,000~",
@@ -91,7 +91,7 @@ const internationalProducts: TourCardProps[] = [
   },
   {
     id: 11,
-    imageUrl: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
+    imageUrl: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
     title: "하와이 호놀룰루 6박 7일",
     description: "와이키키 비치와 다이아몬드 헤드의 환상적인 풍경",
     price: "₩2,490,000~",
@@ -99,7 +99,7 @@ const internationalProducts: TourCardProps[] = [
   },
   {
     id: 12,
-    imageUrl: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+    imageUrl: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
     title: "태국 방콕/파타야 5박 6일",
     description: "방콕의 활기와 파타야의 해변을 함께 즐기는 여행",
     price: "₩790,000~",
