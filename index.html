@@ -18,6 +18,20 @@
     <meta name="twitter:title" content="만만투어 - 진심을 담아 설계한 당신만의 여행" />
     <meta name="twitter:description" content="만만투어와 함께 특별한 여행을 계획해보세요." />
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1469474968028-56623f02e42e" />
+    
+    <!-- GitHub Pages SPA routing -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
   </head>
 
   <body>
