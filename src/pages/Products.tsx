@@ -1,22 +1,24 @@
-
 import Layout from "../components/layout/Layout";
-import ProductTabs from "../components/products/ProductTabs";
 
 const Products = () => {
   return (
     <Layout>
-      <div className="py-8">
-        <div className="container mx-auto px-4">
-          <h1 className="text-3xl md:text-4xl font-bold text-manman-charcoal mb-6 text-center">
+      <div className="min-h-[60vh] flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-3xl md:text-4xl font-bold text-manman-charcoal mb-6">
             여행 상품
           </h1>
-          <p className="text-center text-gray-600 max-w-2xl mx-auto mb-8">
-            만만투어가 엄선한 최고의 여행 상품들을 소개합니다. 
-            국내 여행부터 해외 여행까지, 다양한 목적지와 테마의 여행 상품을 만나보세요.
-          </p>
+          <div className="bg-white rounded-lg shadow-md p-12 max-w-md mx-auto">
+            <div className="text-6xl mb-6">🚧</div>
+            <h2 className="text-2xl font-semibold text-manman-charcoal mb-4">
+              준비중입니다
+            </h2>
+            <p className="text-gray-600">
+              더 좋은 여행 상품으로 곧 찾아뵙겠습니다.
+            </p>
+          </div>
         </div>
       </div>
-      <ProductTabs />
     </Layout>
   );
 };
