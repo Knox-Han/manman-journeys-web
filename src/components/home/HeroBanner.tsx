@@ -1,26 +1,32 @@
 
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import heroVeniceItaly from "../../assets/hero-venice-italy.jpg";
+import heroParisEiffel from "../../assets/hero-paris-eiffel.jpg";
+import heroSwissAlps from "../../assets/hero-swiss-alps.jpg";
 
-// 배너 이미지 데이터
+// 배너 이미지 데이터 - 3개 테마
 const bannerData = [
   {
     id: 1,
-    imageUrl: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
-    title: "아름다운 자연 속으로",
-    description: "숨막히는 풍경과 함께하는 특별한 여행",
+    imageUrl: heroVeniceItaly,
+    title: "베네치아의 로맨틱한 매력",
+    description: "운하 위를 미끄러지는 곤돌라와 함께 중세 유럽의 낭만을 만끽하세요",
+    theme: "베네치아"
   },
   {
     id: 2,
-    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    title: "도시의 활기를 느껴보세요",
-    description: "세계 각국의 문화를 체험하는 도시 여행",
+    imageUrl: heroParisEiffel,
+    title: "파리, 사랑의 도시에서 만나는 감동",
+    description: "에펠탑이 선사하는 황홀한 야경과 함께 평생 잊지 못할 추억을 만드세요",
+    theme: "파리"
   },
   {
     id: 3,
-    imageUrl: "https://images.unsplash.com/photo-1517022812141-23620dba5c23",
-    title: "해변에서의 휴식",
-    description: "푸른 바다와 함께하는 완벽한 휴양",
+    imageUrl: heroSwissAlps,
+    title: "스위스 알프스의 웅장한 자연",
+    description: "만년설이 덮인 알프스 산맥과 에메랄드 호수가 선사하는 절경의 감동",
+    theme: "스위스"
   },
 ];
 
@@ -69,8 +75,13 @@ const HeroBanner = () => {
               className="h-full w-full object-cover"
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white z-20 px-4">
-              <h1 className="text-3xl md:text-5xl font-bold mb-4">{banner.title}</h1>
-              <p className="text-lg md:text-xl max-w-2xl">{banner.description}</p>
+              <div className="mb-2">
+                <span className="inline-block px-3 py-1 bg-manman-coral/80 backdrop-blur-sm rounded-full text-sm font-medium mb-4">
+                  {banner.theme} 여행
+                </span>
+              </div>
+              <h1 className="text-3xl md:text-5xl font-bold mb-4 animate-fade-in">{banner.title}</h1>
+              <p className="text-lg md:text-xl max-w-2xl animate-fade-in">{banner.description}</p>
             </div>
           </div>
         ))}
