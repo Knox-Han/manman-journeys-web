@@ -10,22 +10,22 @@ const bannerData = [
   {
     id: 1,
     imageUrl: heroVeniceItaly,
-    title: "원스톱 예약",
-    description: "항공·호텔·투어를 한 번에.",
+    title: "예술과 일상이 만나는 문명 여행",
+    description: "#문명여행 #안전여행 #맞춤일정",
     theme: "베네치아",
   },
   {
     id: 2,
     imageUrl: heroParisEiffel,
-    title: "맞춤 일정",
-    description: "취향과 예산에 맞춘 설계.",
+    title: "도심 속 낭만과 휴식",
+    description: "#로맨틱 #미식여행 #문화체험",
     theme: "파리",
   },
   {
     id: 3,
     imageUrl: heroSwissAlps,
-    title: "안심 케어",
-    description: "출발부터 귀국까지 전담 지원.",
+    title: "자연과 함께하는 힐링 여행",
+    description: "#자연여행 #액티비티 #트레킹",
     theme: "스위스",
   },
 ];
