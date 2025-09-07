@@ -10,23 +10,23 @@ const bannerData = [
   {
     id: 1,
     imageUrl: heroVeniceItaly,
-    title: "베네치아의 로맨틱한 매력",
-    description: "운하 위를 미끄러지는 곤돌라와 함께 중세 유럽의 낭만을 만끽하세요",
-    theme: "베네치아"
+    title: "원스톱 예약",
+    description: "항공·호텔·투어를 한 번에.",
+    theme: "베네치아",
   },
   {
     id: 2,
     imageUrl: heroParisEiffel,
-    title: "파리, 사랑의 도시에서 만나는 감동",
-    description: "에펠탑이 선사하는 황홀한 야경과 함께 평생 잊지 못할 추억을 만드세요",
-    theme: "파리"
+    title: "맞춤 일정",
+    description: "취향과 예산에 맞춘 설계.",
+    theme: "파리",
   },
   {
     id: 3,
     imageUrl: heroSwissAlps,
-    title: "스위스 알프스의 웅장한 자연",
-    description: "만년설이 덮인 알프스 산맥과 에메랄드 호수가 선사하는 절경의 감동",
-    theme: "스위스"
+    title: "안심 케어",
+    description: "출발부터 귀국까지 전담 지원.",
+    theme: "스위스",
   },
 ];
 
